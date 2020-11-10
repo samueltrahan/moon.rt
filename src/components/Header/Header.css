@@ -1,22 +1,30 @@
-.section-header {
+#section-header {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
-  color: rgb(247, 247, 247)
+  color: rgb(212, 209, 209)
 }
 
 .section-links {
   text-decoration: none;
   color: black;
   margin-right: 30px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .section-links:hover {
-  background-color: lightgray;
+  background-color: rgb(156, 154, 154);
   height: 40px;
 }
 
-.section-links:active {
-  background-color: transparent wheat;
+.active {
+  background-color: white;
+  color: lightgray;
 }

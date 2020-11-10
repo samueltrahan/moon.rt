@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
-import Moon from './Assets/moon.png'
+import Moon from './Assets/moon-logo.png'
 import Section from './components/Section/Section';  
 
 export default function App() {
