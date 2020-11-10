@@ -1,0 +1,22 @@
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: rgb(247, 247, 247)
+}
+
+.section-links {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
+
+.section-links:hover {
+  background-color: lightgray;
+  height: 40px;
+}
+
+.section-links:active {
+  background-color: transparent wheat;
+}
