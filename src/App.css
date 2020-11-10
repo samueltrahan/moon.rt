@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image:
+    linear-gradient(
+      90deg,purple, blue
+    );
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.moon {
+  width: 120px;
+  margin-top: 150px;
+}
+
+.header-title {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header-content {
+  color: grey;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  
+}
