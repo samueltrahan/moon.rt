@@ -1,4 +1,4 @@
-#section-header {
+.section-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,5 +26,5 @@
 
 .active {
   background-color: white;
-  color: lightgray;
+  
 }
