@@ -80,3 +80,7 @@
   text-align: center;
 }
 
+#section-one-btn:hover {
+  background-color: rgb(247, 247, 247);
+}
+
