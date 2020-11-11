@@ -13,6 +13,9 @@ export default function Section() {
       <div className="content">
       <Content />
       </div>
+      <div>
+        
+      </div>
     </div>
     </>
   );
