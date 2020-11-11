@@ -1,0 +1,50 @@
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 250px
+}
+
+.first-section-title:after {
+  margin-top: 20px;
+  content: '';
+  background-color: purple;
+  display: block;
+  height: 4px;
+  width: 100%;
+}
+
+.first-section-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.first-card {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-card {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-card {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-picture {
+  margin-top: 20px;
+  width: 150px;
+  box-shadow: 0 0 0 10px hsl(0, 0%, 90%);
+  border-radius: 50%;
+}
