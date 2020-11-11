@@ -19,6 +19,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
+  height: 200px;
 }
 
 .first-card {
@@ -26,6 +27,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin: 30px;
 }
 
 .second-card {
@@ -33,6 +36,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin: 30px;
 }
 
 .third-card {
@@ -40,6 +45,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin: 30px;
 }
 
 .circle-picture {
@@ -48,3 +55,28 @@
   box-shadow: 0 0 0 10px hsl(0, 0%, 90%);
   border-radius: 50%;
 }
+
+.title {
+  font-weight: 800;
+}
+.section-one-btn {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#section-one-btn {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
