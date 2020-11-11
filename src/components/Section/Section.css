@@ -1,0 +1,10 @@
+.section-comp {
+  background-color: rgb(223, 223, 223);
+  margin: 70px;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: white;
+  height: 500px;
+}

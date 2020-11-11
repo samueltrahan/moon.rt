@@ -12,9 +12,7 @@ export default function App() {
         <h1 className="header-title">Moon</h1>
         <p className="header-content">A free, fully responsive React site template</p>
       </div>
-      <div className="section">
         <Section />
-      </div>
     </Router>
   )
 }

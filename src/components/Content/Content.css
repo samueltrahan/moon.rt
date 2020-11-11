@@ -1,0 +1,13 @@
+.content-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.explore {
+  grid-column: 1/2;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
