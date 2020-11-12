@@ -5,7 +5,7 @@ import Pic02 from '../../Assets/circle.png';
 
 export default function Content() {
   return (
-  <div className="content-section">
+  <div id="intro">
     <div className="explore">
       <h1 className="explore-title">Explore our world</h1>
       <p>Welcome to Moon, come explore our world of development. This template will take your business or portfolio to the next level!</p>

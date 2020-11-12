@@ -1,9 +1,10 @@
-.first-section {
+#first-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 250px
+  height: 250px;
+  border-bottom: 1px solid rgb(204, 202, 202);
 }
 
 .first-section-title:after {

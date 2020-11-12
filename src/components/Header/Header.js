@@ -15,18 +15,18 @@ export default function Header() {
 
   return (
     <nav className="section-header">
-      <Link role="button" className="section-links active" to="/intro">
+      <a role="button" className="section-links active" href="#intro">
         Introduction
-      </Link>
-      <Link role="button" className="section-links" to="/first">
+      </a>
+      <a role="button" className="section-links" href="#first-section">
         First Section
-      </Link>
-      <Link role="button" className="section-links" to="/second">
+      </a>
+      <a role="button" className="section-links" href="#second-section">
         Second Section
-      </Link>
-      <Link role="button" className="section-links" to="/getstarted">
+      </a>
+      <a role="button" className="section-links" href="#getstarted">
         Get Started
-      </Link>
+      </a>
     </nav>
   );
 }

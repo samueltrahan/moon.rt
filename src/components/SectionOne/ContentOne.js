@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./ContentOne.css";
 import Pic03 from "../../Assets/first-section.png";
 import Pic04 from "../../Assets/second-section.png";
@@ -7,7 +7,7 @@ import Pic05 from "../../Assets/third-section.png";
 
 export default function ContentOne() {
   return (
-    <div className="first-section">
+    <div id="first-section">
       <h1 className="first-section-title">Aedificate</h1>
       <div className="first-section-card">
         <div className="first-card">
@@ -35,7 +35,9 @@ export default function ContentOne() {
           </p>
         </div>
         <div className="section-one-btn">
-        <Link role="button" to="/explore" id="section-one-btn" >Learn More</Link>
+          <Link role="button" to="/explore" id="section-one-btn">
+            Learn More
+          </Link>
         </div>
       </div>
     </div>
