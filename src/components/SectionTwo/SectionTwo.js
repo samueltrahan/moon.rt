@@ -11,11 +11,26 @@ export default function SectionTwo() {
       </p>
       </div>
       <div className="board">
-        <div id="etiam">Etiam</div>
-        <div id="magna">Magna</div>
-        <div id="tempus">Tempus</div>
-        <div id="aliquam">Aliquam</div>
-        <div id="nullam">Nullam</div>
+        <div id="etiam">
+          <i className="fas fa-network-wired fa-3x"></i>
+          Etiam
+        </div>
+        <div id="magna">
+          <i className="far fa-folder-open fa-3x"></i>
+          Magna
+          </div>
+        <div id="tempus">
+          <i className="fas fa-signal fa-3x"></i>
+          Tempus
+          </div>
+        <div id="aliquam">
+          <i className="fas fa-laptop fa-3x"></i>
+          Aliquam
+          </div>
+        <div id="nullam">
+        <div><i className="fal fa-gem fa-3x"></i></div>
+          Nullam
+          </div>
       </div>
     </div>
   )
