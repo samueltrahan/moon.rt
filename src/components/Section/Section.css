@@ -12,9 +12,10 @@
 .section-one {
   background-color: white;
   height: 500px;
+  border-bottom: 1px solid rgb(204, 202, 202)
 }
 
 .section-two {
   background-color: white;
-  height: 500px;
+  height: 700px;
 }

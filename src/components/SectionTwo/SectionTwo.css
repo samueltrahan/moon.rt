@@ -1,3 +1,47 @@
-#section-two {
-  
+#second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
 }
+
+.header-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#etiam {
+  grid-column: 1/2;
+  border: 1px solid black;
+  width: 175px;
+  height: 175px;
+}
+
+#magna {
+  grid-column: 2/3;
+  border: 1px solid black
+}
+
+#tempus {
+  grid-column: 3/4;
+  border: 1px solid black
+}
+
+#aliquam {
+  grid-column: 4/5;
+  border: 1px solid black
+}
+
+#nullam {
+  grid-column: 5/6;
+  border: 1px solid black
+}
+
