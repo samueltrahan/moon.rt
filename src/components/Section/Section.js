@@ -3,7 +3,8 @@ import "./Section.css";
 import Header from "../Header/Header";
 import Content from "../Content/Content";
 import ContentOne from "../SectionOne/ContentOne";
-import SectionTwo from '../SectionTwo/SectionTwo'
+import SectionTwo from '../SectionTwo/SectionTwo';
+import GetStarted from '../GetStarted/GetStarted';
 
 export default function Section() {
   return (
@@ -20,6 +21,9 @@ export default function Section() {
         </div>
         <div className="section-two">
           <SectionTwo />
+        </div>
+        <div className="get-started">
+          <GetStarted />
         </div>
       </div>
     </>
