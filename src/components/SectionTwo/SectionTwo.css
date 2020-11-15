@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 350px;
+  height: 650px;
+  border-bottom: 1px solid grey;
 }
 
 .header-two {
@@ -13,13 +14,24 @@
   flex-direction: column;
 }
 
+.header-two-title:after {
+  margin-top: 20px;
+  content: '';
+  background-color: purple;
+  display: block;
+  height: 4px;
+  width: 100%;
+}
+
 .board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 40px;
 }
 
 #etiam {
   grid-column: 1/2;
+  color: white;
   width: 175px;
   height: 175px;
   background-color: rgb(228, 171, 177);
@@ -31,6 +43,7 @@
 
 #magna {
   grid-column: 2/3;
+  color: white;
   background-color: rgb(192, 159, 197);
   display: flex;
   justify-content: center;
@@ -45,6 +58,7 @@
 
 #tempus {
   grid-column: 3/4;
+  color: white;
   background-color: rgb(166,157,197);
   display: flex;
   justify-content: center;
@@ -54,6 +68,7 @@
 
 #aliquam {
   grid-column: 4/5;
+  color: white;
   background-color: rgb(159, 178, 221);
   display: flex;
   justify-content: center;
@@ -68,6 +83,7 @@
 
 #nullam {
   grid-column: 5/6;
+  color: white;
   background-color: rgb(152, 200, 236);
   display: flex;
   justify-content: center;
@@ -80,3 +96,39 @@
   height: 60px;
 }
 
+.paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.part-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.part-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+#section-two-btn {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#section-two-btn:hover {
+  background-color: rgb(247, 247, 247);
+}
