@@ -4,7 +4,7 @@ import './GetStarted.css';
 
 export default function GetStarted() {
   return (
-    <div className="get-started-sect">
+    <div id="getstarted" className="get-started-sect">
       <h1 className="get-started-title">Get Started</h1>
       <p className="started-sentence">Click the buttons to learn more or to get started building the website to take your business to the next level!</p>
       <div className="buttons">
