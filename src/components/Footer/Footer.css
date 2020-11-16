@@ -1,0 +1,74 @@
+.footer {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.cinque {
+  margin-left: 70px;
+  margin-right: 75px;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-title {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-title:hover {
+  color: purple;
+}
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 40px;
+  width: 140px;
+}
+
+.footer-btn:hover {
+  background-color: rgb(230, 227, 227);
+  color: black;
+}
+
+.cinque-biz {
+  color: white;
+  grid-column: 2/3;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
+.social-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  color: white;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.social-links:hover {
+  color: purple;
+}
